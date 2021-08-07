@@ -1,4 +1,0 @@
-comment: '혹시 프로덕션 코드만 작성하셨다면, 단위 테스트를 작성해주세요.',
-fileExtensions: ['.kt', '.java']
-testDir: ''
-testPattern: '**/test/java/com/rebwon/*.java'
