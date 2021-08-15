@@ -1,5 +1,7 @@
 package com.rebwon;
 
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
@@ -10,6 +12,14 @@ public class MonolithicApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MonolithicApplication.class, args);
+    }
+
+    public static class SampleRunner implements ApplicationRunner {
+
+        @Override
+        public void run(ApplicationArguments args) throws Exception {
+
+        }
     }
 
     @EventListener(ApplicationReadyEvent.class)
