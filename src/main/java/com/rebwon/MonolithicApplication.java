@@ -15,6 +15,7 @@ public class MonolithicApplication {
     @EventListener(ApplicationReadyEvent.class)
     public void handle() {
         System.out.println("Logging!");
+        System.out.println("Sample");
     }
 
 }
