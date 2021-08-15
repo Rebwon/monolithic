@@ -14,7 +14,7 @@ public class MonolithicApplication {
 
     @EventListener(ApplicationReadyEvent.class)
     public void sample(ApplicationReadyEvent event) {
-
+        System.out.println("Something");
     }
 
 }
